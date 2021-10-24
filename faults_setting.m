@@ -1,15 +1,9 @@
-% faults_setting
+function faults_setting(PER)
 %%%%%%%%%%
 
-global PER Scenario
+model_name='controller_observer_AllAgents_v5';
 
-
-DesignParameters
-
-
- model_name='controller_observer_AllAgents_v5';
-% 
-%load_system([model_name,'.mdl'])
+load_system([model_name,'.mdl'])
 
 % % Tz    
 % add_f_zones=[1];
@@ -493,4 +487,4 @@ set_param([model_name,'/Controller/Fault_Tst_Heating/Constant'],'Value','Tst_H_m
 set_param([model_name,'/Controller/Fault_Tst_Heating/Gain'],'SampleTime','Ts');    
 set_param([model_name,'/Controller/Fault_Tst_Heating/Gain'],'Gain','Tst_H_mult_Sensor_fault_value');  
 
-%end
+end
