@@ -1,0 +1,41 @@
+Running EPMacro...
+ExpandObjects Started.
+No expanded file generated.
+ExpandObjects Finished. Time:     0.297
+EnergyPlus Starting
+EnergyPlus, Version 9.1.0-08d2e308bb, YMD=2021.08.31 18:35
+Adjusting Air System Sizing
+Adjusting Standard 62.1 Ventilation Sizing
+Initializing Simulation
+Reporting Surfaces
+Beginning Primary Simulation
+Initializing New Environment Parameters
+Warming up {1}
+Instantiating Building Controls Virtual Test Bed
+ExternalInterface initializes.
+Opaque part contains invalid character: \
+Number of outputs in ExternalInterface = 110
+Number of inputs  in ExternalInterface = 50
+Calculating Detailed Daylighting Factors, Start Date=12/21
+Starting Simulation at 12/21 for DENVER-AURORA-BUCKLEY.AFB_CO_USA ANN HTG 99.6% CONDNS DB
+Initializing New Environment Parameters
+Warming up {1}
+Calculating Detailed Daylighting Factors, Start Date=07/21
+Starting Simulation at 07/21 for DENVER-AURORA-BUCKLEY.AFB_CO_USA ANN CLG .4% CONDNS DB=>MWB
+Initializing New Environment Parameters
+Warming up {1}
+Calculating Detailed Daylighting Factors, Start Date=04/01
+Starting Simulation at 04/01/2014 for RUNPERIOD 1
+ExternalInterface starts first data exchange.
+Writing tabular output file results using comma format.
+Writing tabular output file results using HTML format.
+Writing final SQL reports
+ ReadVarsESO program starting.
+ ReadVars Run Time=00hr 00min 29.55sec
+ ReadVarsESO program completed successfully.
+ ReadVarsESO program starting.
+ ReadVars Run Time=00hr 00min  0.02sec
+ ReadVarsESO program completed successfully.
+EnergyPlus Run Time=00hr 07min 32.16sec
+EnergyPlus Completed Successfully.
+Error: Unspecified error when reading from socket.
